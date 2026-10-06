@@ -1,0 +1,42 @@
+\documentclass{article}
+
+\begin{document}
+
+\section{Introduction}
+
+LaTeX is useful for creating professional documents
+\cite{latexbook}.
+
+It is also widely used for mathematical documents
+\cite{mathbook}.
+
+\begin{thebibliography}{5}
+
+\bibitem{latexbook}
+Stefan Kottwitz,
+LaTeX Beginner's Guide,
+Packt Publishing.
+
+\bibitem{mathbook}
+George Gratzer,
+More Math into LaTeX,
+Springer.
+
+\bibitem{book3}
+Leslie Lamport,
+LaTeX: A Document Preparation System,
+Pearson.
+
+\bibitem{book4}
+Donald Knuth,
+The TeXbook,
+Addison-Wesley.
+
+\bibitem{book5}
+Frank Mittelbach,
+The LaTeX Companion,
+Pearson.
+
+\end{thebibliography}
+
+\end{document}
