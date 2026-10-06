@@ -1,29 +1,68 @@
 \documentclass{article}
 
+\usepackage{enumitem}
+
 \begin{document}
 
 \section{Bulleted List}
 
 \begin{itemize}
     \item Python
-    \item Java
     \item C++
+    \item Java
+    \item SQL
 \end{itemize}
+
 
 \section{Numbered List}
 
 \begin{enumerate}
-    \item Open LaTeX
-    \item Write the code
-    \item Compile the document
+    \item Introduction
+    \item Data Collection
+    \item Data Analysis
+    \item Conclusion
 \end{enumerate}
+
 
 \section{Definition List}
 
 \begin{description}
-    \item[LaTeX] Typesetting system
-    \item[PDF] Portable Document Format
-    \item[Compiler] Converts source code into output
+    \item[LaTeX] A document preparation system.
+    \item[Python] A programming language.
+    \item[SQL] A language used for databases.
 \end{description}
+
+
+\section{Customized List}
+
+\begin{itemize}[itemsep=10pt]
+    \item First item
+    \item Second item
+    \item Third item
+\end{itemize}
+
+
+\section{Numbered List with Custom Spacing}
+
+\begin{enumerate}[itemsep=10pt]
+    \item First item
+    \item Second item
+    \item Third item
+\end{enumerate}
+
+
+\section{Interrupting and Resuming}
+
+\begin{enumerate}
+    \item First item
+    \item Second item
+\end{enumerate}
+
+Some text between the list.
+
+\begin{enumerate}[resume]
+    \item Third item
+    \item Fourth item
+\end{enumerate}
 
 \end{document}
