@@ -2,39 +2,57 @@
 
 \begin{document}
 
+\title{Books on Computer Science}
+\author{Your Name}
+\date{\today}
+
+\maketitle
+
 \section{Introduction}
 
-LaTeX is useful for creating professional documents
-\cite{latexbook}.
+There are many useful books related to computer science.
 
-It is also widely used for mathematical documents
-\cite{mathbook}.
+LaTeX is discussed in detail in
+\cite{latex}.
+
+Python is explained in
+\cite{python}.
+
+Machine learning is discussed in
+\cite{ml}.
+
+Data science is covered in
+\cite{datascience}.
+
+Artificial intelligence is discussed in
+\cite{ai}.
+
 
 \begin{thebibliography}{5}
 
-\bibitem{latexbook}
+\bibitem{latex}
 Stefan Kottwitz,
 LaTeX Beginner's Guide,
 Packt Publishing.
 
-\bibitem{mathbook}
-George Gratzer,
-More Math into LaTeX,
-Springer.
+\bibitem{python}
+Mark Lutz,
+Learning Python,
+O'Reilly Media.
 
-\bibitem{book3}
-Leslie Lamport,
-LaTeX: A Document Preparation System,
-Pearson.
+\bibitem{ml}
+Tom M. Mitchell,
+Machine Learning,
+McGraw-Hill.
 
-\bibitem{book4}
-Donald Knuth,
-The TeXbook,
-Addison-Wesley.
+\bibitem{datascience}
+Joel Grus,
+Data Science from Scratch,
+O'Reilly Media.
 
-\bibitem{book5}
-Frank Mittelbach,
-The LaTeX Companion,
+\bibitem{ai}
+Stuart Russell and Peter Norvig,
+Artificial Intelligence: A Modern Approach,
 Pearson.
 
 \end{thebibliography}
