@@ -1,0 +1,26 @@
+\documentclass{article}
+
+\begin{document}
+
+\section{Student Details}
+
+\begin{table}[h]
+\centering
+
+\caption{Student Information}
+
+\begin{tabular}{|c|c|c|}
+\hline
+Name & Course & Marks \\
+\hline
+Rahul & B.Sc. & 85 \\
+\hline
+Aman & B.Sc. & 78 \\
+\hline
+Priya & B.Sc. & 92 \\
+\hline
+\end{tabular}
+
+\end{table}
+
+\end{document}
