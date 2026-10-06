@@ -1,0 +1,29 @@
+\documentclass{article}
+
+\begin{document}
+
+\section{Bulleted List}
+
+\begin{itemize}
+    \item Python
+    \item Java
+    \item C++
+\end{itemize}
+
+\section{Numbered List}
+
+\begin{enumerate}
+    \item Open LaTeX
+    \item Write the code
+    \item Compile the document
+\end{enumerate}
+
+\section{Definition List}
+
+\begin{description}
+    \item[LaTeX] Typesetting system
+    \item[PDF] Portable Document Format
+    \item[Compiler] Converts source code into output
+\end{description}
+
+\end{document}
