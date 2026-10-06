@@ -1,0 +1,36 @@
+Main file: main.tex
+\documentclass{book}
+
+\begin{document}
+
+\frontmatter
+
+\title{My Book}
+\author{Your Name}
+\maketitle
+
+\tableofcontents
+
+\mainmatter
+
+\include{chapter1}
+\include{chapter2}
+
+\backmatter
+
+\end{document}
+
+chapter1.tex
+\chapter{Introduction}
+
+This is the first chapter.
+
+LaTeX is useful for creating professional documents.
+
+chapter2.tex
+
+\chapter{Conclusion}
+
+This is the second chapter.
+
+LaTeX makes large documents easier to manage.
