@@ -1,0 +1,20 @@
+\documentclass[12pt]{article}
+\begin{document}
+
+\title{My First LaTeX Document}
+\author{Your Name\\Delhi University}
+\date{\today}
+
+\maketitle
+
+\onehalfspacing
+
+\section{Introduction}
+
+LaTeX is used to create professional documents.
+
+This is my first LaTeX document.
+
+\footnote{This is a footnote.}
+
+\end{document}
