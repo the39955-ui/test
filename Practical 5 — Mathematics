@@ -1,0 +1,52 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+
+\begin{document}
+
+\section{Mathematical Expressions}
+
+Simple equation:
+
+\[
+x + y = 10
+\]
+
+Fraction:
+
+\[
+\frac{a}{b}
+\]
+
+Square root:
+
+\[
+\sqrt{x}
+\]
+
+Power:
+
+\[
+x^2
+\]
+
+Subscript:
+
+\[
+x_1
+\]
+
+Quadratic formula:
+
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\]
+
+Aligned equations:
+
+\begin{align}
+x + y &= 10 \\
+x - y &= 2
+\end{align}
+
+\end{document}
