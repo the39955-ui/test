@@ -1,26 +1,69 @@
 \documentclass{article}
 
+\usepackage{graphicx}
 \usepackage{makeidx}
 
 \makeindex
 
 \begin{document}
 
+\title{My LaTeX Document}
+\author{Your Name}
+\date{\today}
+
+\maketitle
+
 \tableofcontents
+
+\listoffigures
+
+\listoftables
 
 \section{Introduction}
 
-LaTeX is a typesetting system.\index{LaTeX}
+LaTeX is a typesetting system.
+
+LaTeX\index{LaTeX} is useful for creating documents.
 
 \section{Mathematics}
 
-LaTeX is useful for mathematical documents.\index{Mathematics}
+Mathematics can be written easily in LaTeX.
 
-\section{Tables}
+\subsection{Equations}
 
-Tables can be created easily.\index{Tables}
+This section contains mathematical equations.
 
-\newpage
+\begin{table}[h]
+\centering
+
+\caption{Student Marks}
+
+\begin{tabular}{|c|c|}
+\hline
+Name & Marks \\
+\hline
+Rahul & 90 \\
+\hline
+Aman & 85 \\
+\hline
+\end{tabular}
+
+\end{table}
+
+
+\begin{figure}[h]
+\centering
+
+\framebox[5cm][c]{Sample Figure}
+
+\caption{A Sample Figure}
+
+\end{figure}
+
+
+\section{Conclusion}
+
+This is the conclusion.
 
 \printindex
 
