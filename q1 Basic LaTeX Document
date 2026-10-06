@@ -1,8 +1,15 @@
-\documentclass[12pt]{article}
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{lscape}
+
 \begin{document}
 
 \title{My First LaTeX Document}
-\author{Your Name\\Delhi University}
+\author{Your Name\\
+Department of Computer Science\\
+Your Address}
 \date{\today}
 
 \maketitle
@@ -13,8 +20,24 @@
 
 LaTeX is used to create professional documents.
 
-This is my first LaTeX document.
+This is a sample paragraph for my document.
 
-\footnote{This is a footnote.}
+Here is a footnote.\footnote{This is an example of a footnote.}
+
+\section{Landscape Page}
+
+The following page is in landscape orientation.
+
+\begin{landscape}
+
+This is a landscape page.
+
+It is wider than a normal portrait page.
+
+\end{landscape}
+
+\section{Conclusion}
+
+This is the end of the document.
 
 \end{document}
