@@ -1,8 +1,11 @@
 \documentclass{article}
 
+\usepackage{multirow}
+\usepackage{tabularx}
+
 \begin{document}
 
-\section{Student Details}
+\section{Simple Table}
 
 \begin{table}[h]
 \centering
@@ -13,13 +16,102 @@
 \hline
 Name & Course & Marks \\
 \hline
-Rahul & B.Sc. & 85 \\
+Rahul & Computer Science & 85 \\
 \hline
-Aman & B.Sc. & 78 \\
+Aman & Data Science & 90 \\
 \hline
-Priya & B.Sc. & 92 \\
+Priya & Mathematics & 88 \\
 \hline
 \end{tabular}
+
+\end{table}
+
+
+\section{Spanning Columns}
+
+\begin{table}[h]
+\centering
+
+\caption{Student Marks}
+
+\begin{tabular}{|c|c|c|}
+\hline
+
+\multicolumn{3}{|c|}{Student Information} \\
+
+\hline
+
+Name & Subject & Marks \\
+
+\hline
+
+Rahul & Maths & 90 \\
+
+\hline
+
+Aman & Physics & 85 \\
+
+\hline
+
+\end{tabular}
+
+\end{table}
+
+
+\section{Spanning Rows}
+
+\begin{table}[h]
+\centering
+
+\caption{Course Information}
+
+\begin{tabular}{|c|c|c|}
+\hline
+
+Name & Course & Semester \\
+
+\hline
+
+\multirow{2}{*}{Rahul} & Mathematics & 3 \\
+
+\cline{2-3}
+
+& Physics & 3 \\
+
+\hline
+
+\end{tabular}
+
+\end{table}
+
+
+\section{Automatic Column Fitting}
+
+\begin{table}[h]
+\centering
+
+\caption{Auto-Fit Table}
+
+\begin{tabularx}{\textwidth}{|X|X|X|}
+\hline
+
+Name & Course & Description \\
+
+\hline
+
+Rahul & Computer Science & Student studying computer science \\
+
+\hline
+
+Aman & Data Science & Student studying data science \\
+
+\hline
+
+Priya & Mathematics & Student studying mathematics \\
+
+\hline
+
+\end{tabularx}
 
 \end{table}
 
