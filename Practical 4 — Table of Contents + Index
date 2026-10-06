@@ -1,0 +1,27 @@
+\documentclass{article}
+
+\usepackage{makeidx}
+
+\makeindex
+
+\begin{document}
+
+\tableofcontents
+
+\section{Introduction}
+
+LaTeX is a typesetting system.\index{LaTeX}
+
+\section{Mathematics}
+
+LaTeX is useful for mathematical documents.\index{Mathematics}
+
+\section{Tables}
+
+Tables can be created easily.\index{Tables}
+
+\newpage
+
+\printindex
+
+\end{document}
